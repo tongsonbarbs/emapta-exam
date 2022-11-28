@@ -30,7 +30,7 @@ Please follow the steps below to be able to access the project:
 ```
     >Note: If error occurs, please contact me at tongsonbarbs@gmail.com
 4. Find the .env file in the root directory, then modify your database connection. (Please make sure you have created a database that is empty to avoid any errors)
-```
+
 ```
     DB_CONNECTION=
     DB_HOST=
@@ -38,7 +38,6 @@ Please follow the steps below to be able to access the project:
     DB_DATABASE=
     DB_USERNAME=
     DB_PASSWORD=
-```
 ```
 5. In your terminal, run the following commands:
 ```
@@ -50,16 +49,15 @@ Please follow the steps below to be able to access the project:
 6. Now, try to run the application via the commands below:
 
     >Note: You will have to open 2 instances of your terminal. 
-```
+
 ```
     npm run dev
 ```
-```
+
     In the other terminal:
-```
+
 ```
     php artisan serve
-```
 ```
 
 Please register your admin account via signup to access all features.
