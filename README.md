@@ -7,10 +7,10 @@ This application consists simple authorization methods and data handling.
 
 Before installing this web application, make sure to have the following technologies listed:
 
--PHP 8.1.6 or later...
--Composer 2.3.10 or later...
--Node v16.16.0 or later...
--Latest Git version 
+    -PHP 8.1.6 or later...
+    -Composer 2.3.10 or later...
+    -Node v16.16.0 or later...
+    -Latest Git version 
 
 Please follow the steps below to be able to access the project:
 
@@ -28,7 +28,7 @@ Please follow the steps below to be able to access the project:
     npm install
     cp .env.example .env
 ````
-    >Note: If error occurs, please contact me at tongsonbarbs@gmail.com
+>Note: If error occurs, please contact me at tongsonbarbs@gmail.com
 4. Find the .env file in the root directory, then modify your database connection. (Please make sure you have created a database that is empty to avoid any errors)
 
 ````
@@ -44,7 +44,7 @@ Please follow the steps below to be able to access the project:
     php artisan key:generate
     php artisan migrate --seed
 ````
-    >Note: If error occurs, please contact me at tongsonbarbs@gmail.com
+>Note: If error occurs, please contact me at tongsonbarbs@gmail.com
 
 6. Now, try to run the application via the commands below:
 
@@ -54,7 +54,7 @@ Please follow the steps below to be able to access the project:
     npm run dev
 ````
 
-    In the other terminal:
+In the other terminal:
 
 ````
     php artisan serve
