@@ -19,46 +19,46 @@ Please follow the steps below to be able to access the project:
     git clone https://github.com/tongsonbarbs/emapta-exam.git
 ```
 2. Locate to the directory where you cloned the repository.
-```
+````
     cd emapta-exam
-```
+````
 3. Run the following commands:
-```
+````
     composer install
     npm install
     cp .env.example .env
-```
+````
     >Note: If error occurs, please contact me at tongsonbarbs@gmail.com
 4. Find the .env file in the root directory, then modify your database connection. (Please make sure you have created a database that is empty to avoid any errors)
 
-```
+````
     DB_CONNECTION=
     DB_HOST=
     DB_PORT=
     DB_DATABASE=
     DB_USERNAME=
     DB_PASSWORD=
-```
+````
 5. In your terminal, run the following commands:
-```
+````
     php artisan key:generate
     php artisan migrate --seed
-```
+````
     >Note: If error occurs, please contact me at tongsonbarbs@gmail.com
 
 6. Now, try to run the application via the commands below:
 
     >Note: You will have to open 2 instances of your terminal. 
 
-```
+````
     npm run dev
-```
+````
 
     In the other terminal:
 
-```
+````
     php artisan serve
-```
+````
 
 Please register your admin account via signup to access all features.
 
